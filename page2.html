@@ -108,8 +108,12 @@
     </style>
 </head>
 <body>
-    <video id="video1" class="video-bg" muted playsinline><source src="images/background.mp4" type="video/mp4"></video>
-    <video id="video2" class="video-bg hidden" muted playsinline><source src="images/background.mp4" type="video/mp4"></video>
+   <video id="video1" class="video-bg" muted playsinline autoplay>
+        <source src="images/background.mp4" type="video/mp4">
+    </video>
+    <video id="video2" class="video-bg hidden" muted playsinline autoplay>
+        <source src="images/background.mp4" type="video/mp4">
+    </video>
 
     <div class="music-btn" onclick="toggleMusic()"><img id="musicIcon" src="images/play.png" alt="play"></div>
     <audio id="music" loop><source src="images/日本の空気.mp3" type="audio/mpeg"></audio>
